@@ -9,6 +9,7 @@ product_list = [ Product("MacBook Air M2", price=1450, quantity=100),
 best_buy = Store(product_list)
 
 def start():
+    """main function for starting the program"""
     print("""1. List all products in store
 2. Show total amount in store
 3. Make an order
